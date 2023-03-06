@@ -1,4 +1,0 @@
-Afin que le programme compile correctement sous Windows 64 bits, il est impératif d'utiliser lors de l'édition de liens, le fichier ftd2xx.lib se trouvant dans le répertoire /i386 de l'archive téléchargée. L’édition de liens sera alors de la forme suivante :
-
-gcc releve.o test_releve.o ftd2xx.lib -o test_releve.exe
-Attention pour réaliser la compilation, il faut être dans un environnement windows (et pas Linux). : il faut donc installer MinGW.  (cf Guide d'installation d'un environnement de programmation en langage C disponible dans la section courante de l'intranet).
