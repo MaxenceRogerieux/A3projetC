@@ -12,9 +12,6 @@ CMakeFiles/A3projetC.dir/consigne.c.o
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.c
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
-CMakeFiles/A3projetC.dir/main.c.o
- /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/autotests.h
- /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/main.c
 CMakeFiles/A3projetC.dir/regulation.c.o
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.c
@@ -24,51 +21,6 @@ CMakeFiles/A3projetC.dir/simulateur.c.o
 CMakeFiles/A3projetC.dir/test_simulateur.c.o
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.h
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/core/tests/examples/limited_api/limited_api.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimd.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimddp.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimdfhm.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimdhp.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx2.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_clx.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_cnl.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_icl.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knl.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knm.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_skx.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512cd.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512f.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_f16c.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_fma3.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_fma4.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_neon.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_neon_fp16.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_neon_vfpv4.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_popcnt.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse2.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse3.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse41.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse42.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_ssse3.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx2.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx3.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx4.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vx.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vxe.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_vxe2.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/cpu_xop.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/extra_avx512bw_mask.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/extra_avx512dq_mask.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/extra_avx512f_reduce.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/extra_vsx4_mma.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/extra_vsx_asm.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/checks/test_flags.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/distutils/mingw/gfortran_vs2003_hack.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/f2py/src/fortranobject.c.o
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c.o
 CMakeFiles/A3projetC.dir/visualisationC.c.o
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.c
@@ -77,4 +29,3 @@ CMakeFiles/A3projetC.dir/visualisationT.c.o
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.c
  /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.h
-CMakeFiles/A3projetC.dir/venv/Lib/site-packages/numpy/core/tests/data/generate_umath_validation_data.cpp.o

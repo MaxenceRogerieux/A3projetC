@@ -12,9 +12,6 @@ CMakeFiles/A3projetC.dir/consigne.c.o: ../consigne.c
 CMakeFiles/A3projetC.dir/consigne.c.o: ../consigne.h
 CMakeFiles/A3projetC.dir/consigne.c.o: ../define.h
 
-CMakeFiles/A3projetC.dir/main.c.o: ../autotests.h
-CMakeFiles/A3projetC.dir/main.c.o: ../main.c
-
 CMakeFiles/A3projetC.dir/regulation.c.o: ../define.h
 CMakeFiles/A3projetC.dir/regulation.c.o: ../regulation.c
 CMakeFiles/A3projetC.dir/regulation.c.o: ../regulation.h
@@ -24,51 +21,6 @@ CMakeFiles/A3projetC.dir/simulateur.c.o: ../simulateur.c
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../simulateur.h
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../test_simulateur.c
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CMakeFiles/A3projetC.dir/visualisationC.c.o: ../define.h
 CMakeFiles/A3projetC.dir/visualisationC.c.o: ../visualisationC.c
 CMakeFiles/A3projetC.dir/visualisationC.c.o: ../visualisationC.h
@@ -76,5 +28,4 @@ CMakeFiles/A3projetC.dir/visualisationC.c.o: ../visualisationC.h
 CMakeFiles/A3projetC.dir/visualisationT.c.o: ../define.h
 CMakeFiles/A3projetC.dir/visualisationT.c.o: ../visualisationT.c
 CMakeFiles/A3projetC.dir/visualisationT.c.o: ../visualisationT.h
-
 

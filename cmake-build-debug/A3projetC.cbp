@@ -36,11 +36,6 @@
 				<Compiler>
 					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/."/>
 					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/CDM v2.12.36.4 WHQL Certified"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/libdivide"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/random"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/f2py/src"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -66,11 +61,6 @@
 				<Compiler>
 					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/."/>
 					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/CDM v2.12.36.4 WHQL Certified"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/libdivide"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/random"/>
-					<Add directory="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/f2py/src"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -116,9 +106,6 @@
 		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h">
 			<Option target="A3projetC"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/main.c">
-			<Option target="A3projetC"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.c">
 			<Option target="A3projetC"/>
 		</Unit>
@@ -132,231 +119,6 @@
 			<Option target="A3projetC"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/__multiarray_api.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/__ufunc_api.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/_numpyconfig.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/arrayobject.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/arrayscalars.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/experimental_dtype_api.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/halffloat.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/libdivide/libdivide.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/ndarrayobject.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/ndarraytypes.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/noprefix.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_3kcompat.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_common.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_cpu.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_endian.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_interrupt.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_math.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_no_deprecated_api.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/npy_os.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/numpyconfig.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/old_defines.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/oldnumeric.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/random/bitgen.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/random/distributions.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/ufuncobject.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/include/numpy/utils.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/tests/data/generate_umath_validation_data.cpp">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/core/tests/examples/limited_api/limited_api.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimd.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimddp.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimdfhm.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_asimdhp.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx2.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_clx.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_cnl.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_icl.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knl.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knm.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_skx.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512cd.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512f.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_f16c.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_fma3.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_fma4.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_neon.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_neon_fp16.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_neon_vfpv4.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_popcnt.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse2.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse3.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse41.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_sse42.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_ssse3.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx2.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx3.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx4.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vx.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vxe.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_vxe2.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/cpu_xop.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/extra_avx512bw_mask.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/extra_avx512dq_mask.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/extra_avx512f_reduce.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/extra_vsx4_mma.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/extra_vsx_asm.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/checks/test_flags.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/distutils/mingw/gfortran_vs2003_hack.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/f2py/src/fortranobject.c">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/f2py/src/fortranobject.h">
-			<Option target="A3projetC"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/venv/Lib/site-packages/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c">
 			<Option target="A3projetC"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.c">

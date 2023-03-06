@@ -11,5 +11,5 @@ void visualisationT(temp_t myTemp)
     else{
         // Fichier n'existe pas
     }
-    remove(".verrouData")
+    remove(".verrouData");
 }
