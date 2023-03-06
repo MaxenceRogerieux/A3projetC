@@ -1,0 +1,105 @@
+cmake_minimum_required(VERSION 3.13)
+project(A3projetC)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories("CDM v2.12.36.4 WHQL Certified")
+include_directories(venv/Lib/site-packages/numpy/core/include)
+include_directories(venv/Lib/site-packages/numpy/core/include/numpy)
+include_directories(venv/Lib/site-packages/numpy/core/include/numpy/libdivide)
+include_directories(venv/Lib/site-packages/numpy/core/include/numpy/random)
+include_directories(venv/Lib/site-packages/numpy/f2py/src)
+
+add_executable(A3projetC
+        "CDM v2.12.36.4 WHQL Certified/ftd2xx.h"
+        venv/Lib/site-packages/numpy/core/include/numpy/libdivide/libdivide.h
+        venv/Lib/site-packages/numpy/core/include/numpy/random/bitgen.h
+        venv/Lib/site-packages/numpy/core/include/numpy/random/distributions.h
+        venv/Lib/site-packages/numpy/core/include/numpy/__multiarray_api.h
+        venv/Lib/site-packages/numpy/core/include/numpy/__ufunc_api.h
+        venv/Lib/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h
+        venv/Lib/site-packages/numpy/core/include/numpy/_numpyconfig.h
+        venv/Lib/site-packages/numpy/core/include/numpy/arrayobject.h
+        venv/Lib/site-packages/numpy/core/include/numpy/arrayscalars.h
+        venv/Lib/site-packages/numpy/core/include/numpy/experimental_dtype_api.h
+        venv/Lib/site-packages/numpy/core/include/numpy/halffloat.h
+        venv/Lib/site-packages/numpy/core/include/numpy/ndarrayobject.h
+        venv/Lib/site-packages/numpy/core/include/numpy/ndarraytypes.h
+        venv/Lib/site-packages/numpy/core/include/numpy/noprefix.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_3kcompat.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_common.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_cpu.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_endian.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_interrupt.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_math.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_no_deprecated_api.h
+        venv/Lib/site-packages/numpy/core/include/numpy/npy_os.h
+        venv/Lib/site-packages/numpy/core/include/numpy/numpyconfig.h
+        venv/Lib/site-packages/numpy/core/include/numpy/old_defines.h
+        venv/Lib/site-packages/numpy/core/include/numpy/oldnumeric.h
+        venv/Lib/site-packages/numpy/core/include/numpy/ufuncobject.h
+        venv/Lib/site-packages/numpy/core/include/numpy/utils.h
+        venv/Lib/site-packages/numpy/core/tests/data/generate_umath_validation_data.cpp
+        venv/Lib/site-packages/numpy/core/tests/examples/limited_api/limited_api.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_asimd.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_asimddp.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_asimdfhm.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_asimdhp.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx2.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_clx.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_cnl.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_icl.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knl.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knm.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512_skx.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512cd.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_avx512f.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_f16c.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_fma3.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_fma4.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_neon.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_neon_fp16.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_neon_vfpv4.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_popcnt.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_sse.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_sse2.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_sse3.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_sse41.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_sse42.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_ssse3.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx2.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx3.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vsx4.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vx.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vxe.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_vxe2.c
+        venv/Lib/site-packages/numpy/distutils/checks/cpu_xop.c
+        venv/Lib/site-packages/numpy/distutils/checks/extra_avx512bw_mask.c
+        venv/Lib/site-packages/numpy/distutils/checks/extra_avx512dq_mask.c
+        venv/Lib/site-packages/numpy/distutils/checks/extra_avx512f_reduce.c
+        venv/Lib/site-packages/numpy/distutils/checks/extra_vsx4_mma.c
+        venv/Lib/site-packages/numpy/distutils/checks/extra_vsx_asm.c
+        venv/Lib/site-packages/numpy/distutils/checks/test_flags.c
+        venv/Lib/site-packages/numpy/distutils/mingw/gfortran_vs2003_hack.c
+        venv/Lib/site-packages/numpy/f2py/src/fortranobject.c
+        venv/Lib/site-packages/numpy/f2py/src/fortranobject.h
+        venv/Lib/site-packages/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c
+        autotests.c
+        autotests.h
+        consigne.c
+        consigne.h
+        define.h
+        main.c
+        regulation.c
+        regulation.h
+        simulateur.c
+        simulateur.h
+        test_simulateur.c
+        visualisationC.c
+        visualisationC.h
+        visualisationT.c
+        visualisationT.h)
