@@ -4,19 +4,18 @@
 #include "visualisationC.h"
 
 
-   void visualisationC(float puissance_f)
-   {
-       if( access( ".verrouData", F_OK ) != 1 ){
+   void visualisationC(float puissance_f) {
+       if (access(".verrouData", F_OK) != 1) {
 // Fichier existe
-           return puissance_f; //si pas de fichier verrou, la valeur précedente de la puissance est return
-       }else{
+           //return puissance_f; //si pas de fichier verrou, la valeur précedente de la puissance est return
+       } else {
 // Fichier n'existe pas
-           fopen(".verrouData","w+"); //mode w+ pour créer le fichier s'il n'existe pas
+           fopen(".verrouData", "w+"); //mode w+ pour créer le fichier s'il n'existe pas
            fclose(".verrouData");
            float consigne;
-           FILE* data;
+           FILE *data;
            data = fopen("data.txt", "r");
-           fscanf(data, "%f", consigne);
+           //fscanf(data, "%f", consigne);
            remove(".verrouData");
-           return consigne;
+       }
    }
