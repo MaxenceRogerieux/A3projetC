@@ -4,8 +4,7 @@
    {
    
       float thermostat_f=0;
-   
-     
+
       return thermostat_f;
    
    }
