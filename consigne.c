@@ -11,6 +11,7 @@
        }else{
 // Fichier n'existe pas
            fopen(".verrouConsigne","w+"); //mode w+ pour créer le fichier s'il n'existe pas
+           fclose(".verrouConsigne");
            float consigne;
            FILE* data;
            data = fopen("consigne.txt", "r");
