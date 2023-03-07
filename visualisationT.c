@@ -35,5 +35,4 @@ void visualisationT(temp_t myTemp)
             remove(".verrouData");
         }
     }
-    remove(".verrouData");
 }
