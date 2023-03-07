@@ -23,8 +23,15 @@ void visualisationT(temp_t myTemp)
         else{
             // extrait du fichier le témoin de chauffe
             char temoin_de_chauffe[8];
-            fscanf(fluxDataT, "%f\n%f\n%s", &temoin_de_chauffe);
-            printf("%s", temoin_de_chauffe);
+            char ligne[8];
+            char temoin_de_chauffe[8];
+            int ligne_num = 1;
+            while(fgets(ligne, 8, fluxDataT) != NULL) {
+                if (ligne_num == 3) {
+                    strcpy(exterieure, ligne);
+                }
+                ligne_num++;
+            }
             fclose(fluxDataT);
             fluxDataT = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
             // écrit dans le fichier
