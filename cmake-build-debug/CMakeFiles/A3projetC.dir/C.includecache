@@ -12,6 +12,38 @@ stdio.h
 stdlib.h
 -
 
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.c
+stdio.h
+-
+stdlib.h
+-
+regulation.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.h
+stdio.h
+-
+stdlib.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.c
+unistd.h
+-
+stdio.h
+-
+math.h
+-
+visualisationC.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
+string.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.c
 visualisationT.h
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.h

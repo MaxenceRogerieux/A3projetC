@@ -23,20 +23,16 @@ void visualisationT(temp_t myTemp)
         else{
             // extrait du fichier le témoin de chauffe
             char temoin_de_chauffe[8];
-            fscanf(flux, "\n\n%s", temoin_de_chauffe);
-            fclose(flux);
-            flux = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
-            char* temoin_de_chauffe;
             fscanf(fluxDataT, "\n\n%s", temoin_de_chauffe);
             fclose(fluxDataT);
             fluxDataT = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
             // écrit dans le fichier
             float exterieure = myTemp.exterieure;
             float interieure = myTemp.interieure;
-            fprintf(flux, "%f\n%f\n%s", exterieure, interieure, temoin_de_chauffe);
-            fclose(flux);
-            // supprime fichier verrou
+            fprintf(fluxDataT, "%f\n%f\n%s", exterieure, interieure, temoin_de_chauffe);
+            fclose(fluxDataT);
+
         }
-        remove(".verrouData");
+        remove(".verrouData");// supprime fichier verrou
     }
 }
