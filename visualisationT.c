@@ -24,11 +24,10 @@ void visualisationT(temp_t myTemp)
             // extrait du fichier le témoin de chauffe
             char temoin_de_chauffe[8];
             char ligne[8];
-            char temoin_de_chauffe[8];
             int ligne_num = 1;
             while(fgets(ligne, 8, fluxDataT) != NULL) {
                 if (ligne_num == 3) {
-                    strcpy(exterieure, ligne);
+                    strcpy(temoin_de_chauffe, ligne);
                 }
                 ligne_num++;
             }
