@@ -14,13 +14,13 @@ add_executable(A3projetC
         define.h
         regulation.c
         regulation.h
-        simulateur.c
-        simulateur.h
-        test_simulateur.c
         visualisationC.c
         visualisationC.h
         visualisationT.c
         visualisationT.h
+        simulateur.c
+        simulateur.h
         autotests.c
         autotests.h
+        test_simulateur.c
         )

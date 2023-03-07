@@ -83,35 +83,9 @@ CMakeFiles/A3projetC.dir/regulation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/regulation.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.c" -o CMakeFiles/A3projetC.dir/regulation.c.s
 
-CMakeFiles/A3projetC.dir/simulateur.c.o: CMakeFiles/A3projetC.dir/flags.make
-CMakeFiles/A3projetC.dir/simulateur.c.o: ../simulateur.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/A3projetC.dir/simulateur.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/simulateur.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.c"
-
-CMakeFiles/A3projetC.dir/simulateur.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/A3projetC.dir/simulateur.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.c" > CMakeFiles/A3projetC.dir/simulateur.c.i
-
-CMakeFiles/A3projetC.dir/simulateur.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/simulateur.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.c" -o CMakeFiles/A3projetC.dir/simulateur.c.s
-
-CMakeFiles/A3projetC.dir/test_simulateur.c.o: CMakeFiles/A3projetC.dir/flags.make
-CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../test_simulateur.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/A3projetC.dir/test_simulateur.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/test_simulateur.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c"
-
-CMakeFiles/A3projetC.dir/test_simulateur.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/A3projetC.dir/test_simulateur.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c" > CMakeFiles/A3projetC.dir/test_simulateur.c.i
-
-CMakeFiles/A3projetC.dir/test_simulateur.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/test_simulateur.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c" -o CMakeFiles/A3projetC.dir/test_simulateur.c.s
-
 CMakeFiles/A3projetC.dir/visualisationC.c.o: CMakeFiles/A3projetC.dir/flags.make
 CMakeFiles/A3projetC.dir/visualisationC.c.o: ../visualisationC.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/A3projetC.dir/visualisationC.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/A3projetC.dir/visualisationC.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/visualisationC.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.c"
 
 CMakeFiles/A3projetC.dir/visualisationC.c.i: cmake_force
@@ -124,7 +98,7 @@ CMakeFiles/A3projetC.dir/visualisationC.c.s: cmake_force
 
 CMakeFiles/A3projetC.dir/visualisationT.c.o: CMakeFiles/A3projetC.dir/flags.make
 CMakeFiles/A3projetC.dir/visualisationT.c.o: ../visualisationT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/A3projetC.dir/visualisationT.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/A3projetC.dir/visualisationT.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/visualisationT.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.c"
 
 CMakeFiles/A3projetC.dir/visualisationT.c.i: cmake_force
@@ -135,9 +109,22 @@ CMakeFiles/A3projetC.dir/visualisationT.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/visualisationT.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.c" -o CMakeFiles/A3projetC.dir/visualisationT.c.s
 
+CMakeFiles/A3projetC.dir/simulateur.c.o: CMakeFiles/A3projetC.dir/flags.make
+CMakeFiles/A3projetC.dir/simulateur.c.o: ../simulateur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/A3projetC.dir/simulateur.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/simulateur.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.c"
+
+CMakeFiles/A3projetC.dir/simulateur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/A3projetC.dir/simulateur.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.c" > CMakeFiles/A3projetC.dir/simulateur.c.i
+
+CMakeFiles/A3projetC.dir/simulateur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/simulateur.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.c" -o CMakeFiles/A3projetC.dir/simulateur.c.s
+
 CMakeFiles/A3projetC.dir/autotests.c.o: CMakeFiles/A3projetC.dir/flags.make
 CMakeFiles/A3projetC.dir/autotests.c.o: ../autotests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/A3projetC.dir/autotests.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/A3projetC.dir/autotests.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/autotests.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/autotests.c"
 
 CMakeFiles/A3projetC.dir/autotests.c.i: cmake_force
@@ -148,26 +135,39 @@ CMakeFiles/A3projetC.dir/autotests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/autotests.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/autotests.c" -o CMakeFiles/A3projetC.dir/autotests.c.s
 
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: CMakeFiles/A3projetC.dir/flags.make
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../test_simulateur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/A3projetC.dir/test_simulateur.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/A3projetC.dir/test_simulateur.c.o   -c "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c"
+
+CMakeFiles/A3projetC.dir/test_simulateur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/A3projetC.dir/test_simulateur.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c" > CMakeFiles/A3projetC.dir/test_simulateur.c.i
+
+CMakeFiles/A3projetC.dir/test_simulateur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/A3projetC.dir/test_simulateur.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c" -o CMakeFiles/A3projetC.dir/test_simulateur.c.s
+
 # Object files for target A3projetC
 A3projetC_OBJECTS = \
 "CMakeFiles/A3projetC.dir/consigne.c.o" \
 "CMakeFiles/A3projetC.dir/regulation.c.o" \
-"CMakeFiles/A3projetC.dir/simulateur.c.o" \
-"CMakeFiles/A3projetC.dir/test_simulateur.c.o" \
 "CMakeFiles/A3projetC.dir/visualisationC.c.o" \
 "CMakeFiles/A3projetC.dir/visualisationT.c.o" \
-"CMakeFiles/A3projetC.dir/autotests.c.o"
+"CMakeFiles/A3projetC.dir/simulateur.c.o" \
+"CMakeFiles/A3projetC.dir/autotests.c.o" \
+"CMakeFiles/A3projetC.dir/test_simulateur.c.o"
 
 # External object files for target A3projetC
 A3projetC_EXTERNAL_OBJECTS =
 
 A3projetC: CMakeFiles/A3projetC.dir/consigne.c.o
 A3projetC: CMakeFiles/A3projetC.dir/regulation.c.o
-A3projetC: CMakeFiles/A3projetC.dir/simulateur.c.o
-A3projetC: CMakeFiles/A3projetC.dir/test_simulateur.c.o
 A3projetC: CMakeFiles/A3projetC.dir/visualisationC.c.o
 A3projetC: CMakeFiles/A3projetC.dir/visualisationT.c.o
+A3projetC: CMakeFiles/A3projetC.dir/simulateur.c.o
 A3projetC: CMakeFiles/A3projetC.dir/autotests.c.o
+A3projetC: CMakeFiles/A3projetC.dir/test_simulateur.c.o
 A3projetC: CMakeFiles/A3projetC.dir/build.make
 A3projetC: CMakeFiles/A3projetC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable A3projetC"
