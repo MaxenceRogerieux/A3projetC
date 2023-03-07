@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.c
-unistd.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+stdio.h
 -
-consigne.h
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
-unistd.h
+stdlib.h
 -
 
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.c
+stdio.h
+-
+stdlib.h
+-
+regulation.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.h
 stdio.h
 -
 stdlib.h
 -
 define.h
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
-
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
-stdio.h
--
-stdlib.h
--
 
