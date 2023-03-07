@@ -16,11 +16,17 @@ float consigne(float thermostatPrec_f)
       fclose(fichier_verrou);
       // récupération de la consigne
       float consigne;
-      FILE* data;
+      FILE* data=NULL;
       data = fopen("consigne.txt", "r");
-      fscanf(data, "%f", consigne);
-      fclose(data);
-      // suppression fichier verrou
+      if(data == NULL){
+            printf("Error in opening file");
+            return 1;
+      }
+      else{
+         fscanf(data, "%f", consigne);
+         fclose(data);
+         // suppression fichier verrou
+      }
       remove(".verrouConsigne");
       return consigne;
    }
