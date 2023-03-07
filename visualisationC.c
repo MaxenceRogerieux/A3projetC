@@ -23,8 +23,8 @@ void visualisationC(float puissance_f) {
         }
         else{
             // extrait du fichier les températures ext et int
-            float exterieure;
-            float interieure;
+            char exterieure[8];
+            char interieure[8];
             char ligne[8];
             int ligne_num = 1;
             while(fgets(ligne, 8, fluxDataC) != NULL) {
@@ -42,10 +42,10 @@ void visualisationC(float puissance_f) {
             fluxDataC = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
             // écrit dans le fichier
             if(puissance_f == 0){
-                fprintf(fluxDataC, "%f\n%f\n%s", exterieure, interieure, "false");
+                fprintf(fluxDataC, "%s\n%s\n%s", exterieure, interieure, "false");
             }
             else{
-                fprintf(fluxDataC, "%f\n%f\n%s", exterieure, interieure, "true");
+                fprintf(fluxDataC, "%s\n%s\n%s", exterieure, interieure, "true");
             }
             fclose(fluxDataC);
         }

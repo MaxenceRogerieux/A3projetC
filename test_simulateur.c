@@ -21,7 +21,7 @@ int main(){
 
     score1 = testVisualisationT();
     score2 = testConsigne();
-    //score3 = testVisualisationC(); //Block
+    score3 = testVisualisationC(); //Block
 
     score4 = testRegulationTOR();
     score5 = testRegulationPID();

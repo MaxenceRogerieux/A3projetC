@@ -22,7 +22,9 @@ float consigne(float thermostatPrec_f)
             return 1;
       }
       else{
+          printf("Info : %f\n",consigne);
          fscanf(data, "%f", consigne);
+          printf("Info : %f\n",consigne);
          fclose(data);
          // suppression fichier verrou
       }
