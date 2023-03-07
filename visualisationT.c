@@ -14,25 +14,24 @@ void visualisationT(temp_t myTemp)
         FILE* fichier_verrou = fopen(".verrouData", "w+");
         fclose(fichier_verrou);
         // écrit les températures intérieures et extérieures dans le fichier data.txt
-        FILE* flux;
-        flux = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
-        if(flux == NULL){
+        FILE* fluxDataT;
+        fluxDataT = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
+        if(fluxDataT == NULL){
             printf("Error in opening file");
             return 1;
         }
         else{
             // extrait du fichier le témoin de chauffe
             char* temoin_de_chauffe;
-            fscanf(flux, "\n\n%s", temoin_de_chauffe); 
-            fclose(flux);
-            flux = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
+            fscanf(fluxDataT, "\n\n%s", temoin_de_chauffe);
+            fclose(fluxDataT);
+            fluxDataT = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
             // écrit dans le fichier
             float exterieure = myTemp.exterieure;
             float interieure = myTemp.interieure;
-            fprintf(flux, "%f\n%f\n%s", exterieure, interieure, temoin_de_chauffe);
-            fclose(flux);
-            // supprime fichier verrou
-            remove(".verrouData");
+            fprintf(fluxDataT, "%f\n%f\n%s", exterieure, interieure, temoin_de_chauffe);
+            fclose(fluxDataT);
         }
+        remove(".verrouData");// supprime fichier verrou
     }
 }
