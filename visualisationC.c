@@ -38,7 +38,7 @@ void visualisationC(float puissance_f) {
             }
             fclose(flux);
             // supprime fichier verrou
-            remove(".verrouData");
         }
+        remove(".verrouData");
     }
 }
