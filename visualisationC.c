@@ -5,7 +5,6 @@
 
 
 
-
 void visualisationC(float puissance_f) {
     if(access( ".verrouData", F_OK ) != -1){
         // Fichier verrou existe

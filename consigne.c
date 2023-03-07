@@ -2,7 +2,6 @@
 #include "consigne.h"
 #include <unistd.h>
 
-
 float consigne(float thermostatPrec_f)
 {
    if( access( ".verrouConsigne", F_OK ) != 1 ){
