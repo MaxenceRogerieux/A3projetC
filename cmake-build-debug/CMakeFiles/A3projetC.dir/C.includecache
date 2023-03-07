@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.c
+unistd.h
+-
+consigne.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
+unistd.h
+-
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
+stdio.h
+-
+stdlib.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
 stdio.h
 -
 stdlib.h
 -
-
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.c
-unistd.h
--
-stdio.h
--
-math.h
--
-visualisationC.h
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
-
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
-string.h
--
-define.h
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
 
