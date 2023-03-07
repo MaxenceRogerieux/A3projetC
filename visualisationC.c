@@ -4,9 +4,6 @@
 #include "visualisationC.h"
 
 
-• Si chauffage==0 : false
-• Si chauffage>0 : true
-
 
 
 void visualisationC(float puissance_f) {
