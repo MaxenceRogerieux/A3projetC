@@ -14,7 +14,7 @@ void visualisationT(temp_t myTemp)
         FILE* fichier_verrou = fopen(".verrouData", "w+");
         fclose(fichier_verrou);
         // écrit les températures intérieures et extérieures dans le fichier data.txt
-        FILE* fluxDataT;
+        FILE* fluxDataT=NULL;
         fluxDataT = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
         if(fluxDataT == NULL){
             printf("Error in opening file");

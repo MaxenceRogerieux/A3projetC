@@ -16,11 +16,11 @@ void visualisationC(float puissance_f) {
         FILE* fichier_verrou = fopen(".verrouData", "w+");
         fclose(fichier_verrou);
         // écrit le témoin de chauffe dans le fichier data.txt
-        FILE* fluxDataC;
+        FILE* fluxDataC=NULL;
         fluxDataC = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
         if(fluxDataC == NULL){
             printf("Error in opening file");
-            //return 1;
+            return 1;
         }
         else{
             // extrait du fichier les températures ext et int
@@ -36,9 +36,6 @@ void visualisationC(float puissance_f) {
             else{
                 fprintf(fluxDataC, "%f\n%f\n%s", exterieure, interieure, "true");
             }
-            fclose(fluxDataC);
-
-
             fclose(fluxDataC);
         }
         remove(".verrouData");// supprime fichier verrou
