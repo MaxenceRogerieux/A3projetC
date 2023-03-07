@@ -5,6 +5,9 @@
 #include "visualisationC.h"
 #include "regulation.h"
 #include <math.h>
+
+#define DISPLAY_DEBUG
+
 float testConsigne(){
 	
 	float score=0.0;
