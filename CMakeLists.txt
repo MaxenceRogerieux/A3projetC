@@ -8,12 +8,10 @@ include_directories("CDM v2.12.36.4 WHQL Certified")
 
 add_executable(A3projetC
         "CDM v2.12.36.4 WHQL Certified/ftd2xx.h"
-        autotests.c
-        autotests.h
+
         consigne.c
         consigne.h
         define.h
-
         regulation.c
         regulation.h
         simulateur.c
@@ -22,4 +20,7 @@ add_executable(A3projetC
         visualisationC.c
         visualisationC.h
         visualisationT.c
-        visualisationT.h)
+        visualisationT.h
+        autotests.c
+        autotests.h
+        )
