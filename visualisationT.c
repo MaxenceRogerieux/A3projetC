@@ -22,7 +22,7 @@ void visualisationT(temp_t myTemp)
         }
         else{
             // extrait du fichier le témoin de chauffe
-            char* temoin_de_chauffe;
+            char temoin_de_chauffe[8];
             fscanf(flux, "\n\n%s", temoin_de_chauffe); 
             fclose(flux);
             flux = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
