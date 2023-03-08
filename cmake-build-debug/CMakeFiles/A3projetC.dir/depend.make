@@ -19,8 +19,12 @@ CMakeFiles/A3projetC.dir/regulation.c.o: ../regulation.h
 CMakeFiles/A3projetC.dir/simulateur.c.o: ../simulateur.c
 
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../autotests.h
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../define.h
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../regulation.h
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../simulateur.h
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../test_simulateur.c
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../visualisationC.h
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../visualisationT.h
 
 CMakeFiles/A3projetC.dir/visualisationC.c.o: ../define.h
 CMakeFiles/A3projetC.dir/visualisationC.c.o: ../visualisationC.c
