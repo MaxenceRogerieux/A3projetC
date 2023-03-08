@@ -10,7 +10,7 @@
             return 0;
         }
 }
-    float PID(float error,float errorSum,float errorVar,float tempPrev){
+    float PID(float error,float errorSum,float errorVar){
         // def coeff
         float Kp = 1;
         float Ki = 0.1;
@@ -22,8 +22,6 @@
 
         float pid = P+I+D;
 
-        //printf("PID :%f/%f/%f\n",P,I,D);
-        //printf("PID :%f\n",pid);
         return pid;
     }
 	 
@@ -46,7 +44,6 @@
         }
 
         if(regul == 2){
-            //printf("%f\n",tabT[0]);
             for (int i = 1; i < nT; ++i) {
                 error = consigne - tabT[i];
                 printf("%f\n",tabT[i]);
@@ -55,13 +52,9 @@
                 } else {
                     errorSum += error*10+((tabT[i-1]-tabT[i])*10/2); //temp croissante
                 }
-                //printf("errorSum : %f\n",consigne - tabT[i]);
                 errorVar = (error-errorPrev)/10;
-                //printf("%f\n",tabT[i]);
-                //printf("Errors : %f/%f/%f/%f\n",error,errorSum,errorVar,errorPrev);
-                cmd = PID(error,errorSum,errorVar,tempPrev);
+                cmd = PID(error,errorSum,errorVar);
                 errorPrev = error;
-                tempPrev = tabT[i];
             }
         }
 		return cmd;
