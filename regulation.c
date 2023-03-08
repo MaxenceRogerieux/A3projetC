@@ -69,5 +69,4 @@
 	/*
 	retourne cmd après nT appels à la fonction regulation()
 	*/
-//repush
   

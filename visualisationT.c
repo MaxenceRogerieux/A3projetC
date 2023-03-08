@@ -2,7 +2,7 @@
 
 #include <unistd.h>
 #include <stdio.h>
-//testtets
+
 void visualisationT(temp_t myTemp)
 {
     if(access( ".verrouData", F_OK ) != -1){
