@@ -46,7 +46,6 @@
         if(regul == 2){
             for (int i = 1; i < nT; ++i) {
                 error = consigne - tabT[i];
-                printf("%f\n",tabT[i]);
                 if(tabT[i-1]-tabT[i]<0){
                     errorSum += error*10-((tabT[i-1]-tabT[i])*10/2); //temp decroissante
                 } else {
