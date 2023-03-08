@@ -2,6 +2,7 @@
 	 #include <stdlib.h>
     #include "regulation.h"
 
+#include "math.h"
 	float TOR(float consigne, float temperature){
         if(temperature<consigne){
             return 40;
@@ -22,7 +23,7 @@
         float pid = P+I+D;
 
         //printf("PID :%f/%f/%f\n",P,I,D);
-        printf("PID :%f\n",pid);
+        //printf("PID :%f\n",pid);
         return pid;
     }
 	 
@@ -48,8 +49,13 @@
             //printf("%f\n",tabT[0]);
             for (int i = 1; i < nT; ++i) {
                 error = consigne - tabT[i];
-                errorSum += error*10-((tabT[i-1]-tabT[i])*10/2);
-                //printf("errorSum : %f\n",((tabT[i-1]-tabT[i])*10/2));
+                printf("%f\n",tabT[i]);
+                if(tabT[i-1]-tabT[i]<0){
+                    errorSum += error*10-((tabT[i-1]-tabT[i])*10/2); //temp decroissante
+                } else {
+                    errorSum += error*10+((tabT[i-1]-tabT[i])*10/2); //temp croissante
+                }
+                //printf("errorSum : %f\n",consigne - tabT[i]);
                 errorVar = (error-errorPrev)/10;
                 //printf("%f\n",tabT[i]);
                 //printf("Errors : %f/%f/%f/%f\n",error,errorSum,errorVar,errorPrev);
