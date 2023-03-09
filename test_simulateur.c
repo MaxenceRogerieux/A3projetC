@@ -7,23 +7,23 @@
 #include "visualisationT.h"
 
 int main(){
-//    float errorSum = 0;
-//    float puissance = 0;
-//	temp_t temperature;
-//	temperature.exterieure = 14.0;
-//	temperature.interieure = 15.0;
-//	struct simParam_s*  monSimulateur_ps = simConstruct(temperature); // creation du simulateur, puissance intialis�e � 0%
-//	int i=0; // increment de boucle
-//	//puissance = TOR(30,15); // puissance de chauffage
-//
-//    //printf("PID : %f\n",PID(15,14,30,&errorSum));
-//    //float puissance = 70; // puissance de chauffage
-//	for(i=0;i< 750;i++){
-//		temperature=simCalc(puissance,monSimulateur_ps); // simulation de l'environnement
-//        printf("%f\n",puissance);
-//		puissance = PID(15,14,30,&errorSum); // puissance de chauffage
-//	}
-//	simDestruct(monSimulateur_ps); // destruction de simulateur
+    float errorSum = 0;
+    float puissance = 0;
+	temp_t temperature;
+	temperature.exterieure = 14.0;
+	temperature.interieure = 15.0;
+	struct simParam_s*  monSimulateur_ps = simConstruct(temperature); // creation du simulateur, puissance intialis�e � 0%
+	int i=0; // increment de boucle
+	//puissance = TOR(30,15); // puissance de chauffage
+
+    //printf("PID : %f\n",PID(15,14,30,&errorSum));
+    //float puissance = 70; // puissance de chauffage
+	for(i=0;i< 750;i++){
+		temperature=simCalc(puissance,monSimulateur_ps); // simulation de l'environnement
+        printf("%f\n",puissance);
+		puissance = PID(15,14,30,&errorSum); // puissance de chauffage
+	}
+	simDestruct(monSimulateur_ps); // destruction de simulateur
 
 
      //AUTOTESTS

@@ -3,7 +3,6 @@
     #include "regulation.h"
 
 #include "math.h"
-//comment
 	float TOR(float consigne, float temperature){
         if(temperature<consigne){
             return 40;
