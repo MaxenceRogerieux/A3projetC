@@ -25,6 +25,12 @@ int main(){
 	}
 	simDestruct(monSimulateur_ps); // destruction de simulateur
 
+//consigne
+//puissance
+//visuT
+//visuC
+
+
 
      //AUTOTESTS
 //     float score1=0,score2=0,score3=0,score4=0,score5=0;
