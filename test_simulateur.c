@@ -9,12 +9,8 @@
 #include <unistd.h>
 
 int main(){
-    if(access( ".verrouData", F_OK ) != -1){
-        remove(".verrouData");// supprime fichier verrou
-    }
-    if(access( ".verrouConsigne", F_OK ) != -1){
-        remove(".verrouConsigne");// supprime fichier verrou
-    }
+    remove(".verrouConsigne");// supprime fichier verrou
+    remove(".verrouData");// supprime fichier verrou
 
     float errorSum = 0;
     float puissance = 0;
@@ -26,7 +22,7 @@ int main(){
 	float tempPrev;
 
     float csgn = 20;
-    float csgnPrev = consigne(0);
+    float csgnPrev = consigne(20);
 
 	struct simParam_s*  monSimulateur_ps = simConstruct(temperature); // creation du simulateur, puissance intialis�e � 0%
 	while(csgn>5){
@@ -49,13 +45,10 @@ int main(){
         //printf("%f\n",puissance);
         tempPrev = temp;
         csgnPrev = csgn;
+        sleep(0.5);
 	}
 	puissance = 0;
 	simDestruct(monSimulateur_ps); // destruction de simulateur
-
-
-
-
 
      //AUTOTESTS
 //     float score1=0,score2=0,score3=0,score4=0,score5=0;

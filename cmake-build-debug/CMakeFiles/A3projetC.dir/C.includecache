@@ -6,19 +6,57 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/autotests.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
+stdio.h
+-
+stdlib.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
 stdio.h
 -
 stdlib.h
 -
 
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.c
-visualisationT.h
-/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.h
-unistd.h
--
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.h
 stdio.h
 -
+stdlib.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.h
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/test_simulateur.c
+stdio.h
+-
+stdlib.h
+-
+simulateur.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/simulateur.h
+autotests.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/autotests.h
+regulation.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/regulation.h
+visualisationC.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
+visualisationT.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.h
+consigne.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
+unistd.h
+-
+
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
+string.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
 
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.h
 string.h

@@ -40,11 +40,14 @@ void visualisationC(float puissance_f) {
             fclose(fluxDataC);
             fluxDataC = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
             // écrit dans le fichier
+            float exte = atof(exterieure);
+            float inte = atof(interieure);
             if(puissance_f == 0){
-                fprintf(fluxDataC, "%s\n%s\n%s", exterieure, interieure, "false");
+
+                fprintf(fluxDataC, "%.2f\n%.2f\n%s", exte, inte, "false");
             }
             else{
-                fprintf(fluxDataC, "%s\n%s\n%s", exterieure, interieure, "true");
+                fprintf(fluxDataC, "%.2f\n%.2f\n%s", exte, inte, "true");
             }
             fclose(fluxDataC);
         }
