@@ -70,7 +70,7 @@
 	/*
 	retourne cmd après nT appels à la fonction regulation()
 	*/
-
+//hello
 /*
 BACKUP (ANCIENNE VERSION)
 float PID(float error,float errorSum,float errorVar){
