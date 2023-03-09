@@ -10,7 +10,7 @@
             return 0;
         }
 }
-    float PID(float temp, float tempPrev, float consigne, float* errorSum){
+    float PID(float temp, float tempPrev, float consigne, float* errorSum) {
         float error;
         float errorVar;
         float errorPrev;
@@ -18,27 +18,33 @@
         error = consigne - temp;
         errorPrev = consigne - tempPrev;
 
-        if(tempPrev-temp<0){
-            *errorSum += error*10-((tempPrev-temp)*10/2); //temp decroissante
+        if (tempPrev - temp < 0) {
+            *errorSum += error * 10 - ((tempPrev - temp) * 10 / 2); //temp decroissante
         } else {
-            *errorSum += error*10+((tempPrev-temp)*10/2); //temp croissante
+            *errorSum += error * 10 + ((tempPrev - temp) * 10 / 2); //temp croissante
         }
-        errorVar = (error-errorPrev)/10;
+        errorVar = (error - errorPrev) / 10;
 
         // def coeff
         float Kp = 1;
         float Ki = 0.1;
         float Kd = 0.1;
         // def P,I,D
-        float P = error*Kp;
-        float I = *errorSum*Ki;
-        float D = errorVar*Kd;
+        float P = error * Kp;
+        float I = *errorSum * Ki;
+        float D = errorVar * Kd;
 
-        float pid = P+I+D;
+        float pid = P + I + D;
+        //saturation
+        if (pid > 100) {
+            pid=100;
+        }
+        if (pid < 0) {
+            pid = 0;
+        }
 
-        return pid;
+            return pid;
     }
-	 
 	/* regul : type de régulation (1:Tout ou Rien, 2:PID)
 		csgn : température de consigne
 		tabT : tableau de températures intérieures successives en entrée de la régulation
