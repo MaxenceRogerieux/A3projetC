@@ -19,6 +19,7 @@ CMakeFiles/A3projetC.dir/regulation.c.o: ../regulation.h
 CMakeFiles/A3projetC.dir/simulateur.c.o: ../simulateur.c
 
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../autotests.h
+CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../consigne.h
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../define.h
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../regulation.h
 CMakeFiles/A3projetC.dir/test_simulateur.c.o: ../simulateur.h

@@ -8,6 +8,14 @@
 
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/autotests.h
 
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
+stdio.h
+-
+stdlib.h
+-
+define.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
+
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/define.h
 stdio.h
 -
@@ -39,6 +47,8 @@ visualisationC.h
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
 visualisationT.h
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationT.h
+consigne.h
+/mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/consigne.h
 
 /mnt/c/Users/maxou/OneDrive - yncréa/Documents/ISEN/CIR 3/Projets/A3projetC/visualisationC.h
 string.h
