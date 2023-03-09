@@ -42,7 +42,6 @@
         if (pid < 0) {
             pid = 0;
         }
-
             return pid;
     }
 	/* regul : type de régulation (1:Tout ou Rien, 2:PID)
