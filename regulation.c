@@ -35,6 +35,8 @@
         float D = errorVar*Kd;
 
         float pid = P+I+D;
+        
+
 
         return pid;
     }
