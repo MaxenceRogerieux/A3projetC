@@ -18,7 +18,6 @@ void visualisationT(temp_t myTemp)
         fluxDataT = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
         if(fluxDataT == NULL){
             printf("Error in opening file");
-            return 1;
         }
         else{
             // extrait du fichier le témoin de chauffe

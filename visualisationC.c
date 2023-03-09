@@ -19,7 +19,6 @@ void visualisationC(float puissance_f) {
         fluxDataC = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
         if(fluxDataC == NULL){
             printf("Error in opening file");
-            return 1;
         }
         else{
             // extrait du fichier les températures ext et int

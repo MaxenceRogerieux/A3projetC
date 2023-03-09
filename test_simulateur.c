@@ -6,8 +6,16 @@
 #include "visualisationC.h"
 #include "visualisationT.h"
 #include "consigne.h"
+#include <unistd.h>
 
 int main(){
+    if(access( ".verrouData", F_OK ) != -1){
+        remove(".verrouData");// supprime fichier verrou
+    }
+    if(access( ".verrouConsigne", F_OK ) != -1){
+        remove(".verrouConsigne");// supprime fichier verrou
+    }
+
     float errorSum = 0;
     float puissance = 0;
 	temp_t temperature;
@@ -17,11 +25,11 @@ int main(){
 	float temp;
 	float tempPrev;
 
-    float csgn;
+    float csgn = 20;
     float csgnPrev = consigne(0);
 
 	struct simParam_s*  monSimulateur_ps = simConstruct(temperature); // creation du simulateur, puissance intialis�e � 0%
-	while(1){
+	while(csgn>5){
         temp = temperature.interieure;
 
         //consigne
@@ -29,16 +37,20 @@ int main(){
         csgn = consigne(csgnPrev);
         //puissance
         puissance = PID(temp,tempPrev,csgn,&errorSum);
-        //visuT
+
+
+		temperature=simCalc(puissance,monSimulateur_ps); // simulation de l'environnement
+
+		// visuT
         visualisationT(temperature);
         //visuC
         visualisationC(PID(temp,tempPrev,csgn,&errorSum)); // témoin de chauffe
 
-		temperature=simCalc(puissance,monSimulateur_ps); // simulation de l'environnement
         //printf("%f\n",puissance);
         tempPrev = temp;
         csgnPrev = csgn;
 	}
+	puissance = 0;
 	simDestruct(monSimulateur_ps); // destruction de simulateur
 
 
