@@ -3,6 +3,7 @@
     #include "regulation.h"
 
 #include "math.h"
+//comment
 	float TOR(float consigne, float temperature){
         if(temperature<consigne){
             return 40;
@@ -30,14 +31,18 @@
         float Ki = 0.1;
         float Kd = 0.1;
         // def P,I,D
-        float P = error*Kp;
-        float I = *errorSum*Ki;
-        float D = errorVar*Kd;
+        float P = error * Kp;
+        float I = *errorSum * Ki;
+        float D = errorVar * Kd;
 
-        float pid = P+I+D;
-        
-
-
+        float pid = P + I + D;
+        //saturation
+        if (pid > 100) {
+            pid=100;
+        }
+        if (pid < 0) {
+            pid = 0;
+        }
             return pid;
     }
 	 
