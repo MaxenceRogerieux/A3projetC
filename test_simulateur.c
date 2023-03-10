@@ -45,7 +45,7 @@ int main(){
         //printf("%f\n",puissance);
         tempPrev = temp;
         csgnPrev = csgn;
-        sleep(0.5);
+        //sleep(0.5);
 	}
 	puissance = 0;
 	simDestruct(monSimulateur_ps); // destruction de simulateur
