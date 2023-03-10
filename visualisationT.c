@@ -3,28 +3,26 @@
 #include <unistd.h>
 #include <stdio.h>
 
+// Ecriture des températures intérieures et extérieures dans le fichier data.txt
 void visualisationT(temp_t myTemp)
 {
     if(access( ".verrouData", F_OK ) != -1){
         // Fichier verrou existe
     }
     else{
-//        if(fopen(".verrouData", "w+") == NULL){
-//            //OUVERT AUTRE PART
-//        } else {
-//        }
             // Fichier verrou n'existe pas
-            // crée le fichier verrou
+            // Création du fichier verrou
             FILE* fichier_verrou = fopen(".verrouData", "w+");
             fclose(fichier_verrou);
-            // écrit les températures intérieures et extérieures dans le fichier data.txt
+            // 1- Lecture du fichier et extraction du témoin de chauffe
             FILE* fluxDataT=NULL;
             fluxDataT = fopen("data.txt", "r+"); // r+ : les données précédentes ne sont pas effacées si le fichier existe
             if(fluxDataT == NULL){
                 printf("Error in opening file");
+                fclose(fluxDataT);
             }
             else{
-                // extrait du fichier le témoin de chauffe
+                // Extraction du témoin de chauffe
                 char temoin_de_chauffe[8];
                 char ligne[8];
                 int ligne_num = 1;
@@ -35,14 +33,13 @@ void visualisationT(temp_t myTemp)
                     ligne_num++;
                 }
                 fclose(fluxDataT);
+                // 2- Ecriture des informations (témoin de chauffe, températures) dans le fichier
                 fluxDataT = fopen("data.txt", "w+"); // w+ : les données précédentes sont effacées si le fichier existe
-                // écrit dans le fichier
                 float exterieure = myTemp.exterieure;
                 float interieure = myTemp.interieure;
-                printf("%s\n",temoin_de_chauffe);
                 fprintf(fluxDataT, "%.2f\n%.2f\n%s", exterieure, interieure, temoin_de_chauffe);
                 fclose(fluxDataT);
         }
-        remove(".verrouData");// supprime fichier verrou
+        remove(".verrouData");// Suppression du fichier verrou
     }
 }
